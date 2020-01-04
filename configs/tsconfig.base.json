@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "baseUrl": "../",
+        "paths": {
+            "*": [
+                "node_modules/*",
+            ],
+            "jest-in-case": [
+                "types/jest-in-case",
+            ],
+        },
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+    },
+}

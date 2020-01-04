@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "rootDir": "../src",
+        "outDir": "../lib",
+        "lib": [
+            "DOM",
+            "ES2015",
+            "ESNext.BigInt",
+        ],
+        "alwaysStrict": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+    },
+    "files": [
+        "../src/index.ts",
+    ],
+    "include": [
+        "../src/**/*.ts",
+    ],
+    "exclude": [],
+}

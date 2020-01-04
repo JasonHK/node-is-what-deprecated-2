@@ -19,6 +19,7 @@
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
     "build:docs": "npx typedoc --options \"configs/typedoc.json\" src",
+    "build:src:library": "npx tsc --project \"./configs/tsconfig.build.src.library.json\"",
     "release": "npx standard-version"
   },
   "main": "index.js",

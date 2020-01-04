@@ -1,1 +1,4 @@
-# node-is-what
+@jasonhk/is-what
+================
+
+A library for determining the type of the object.

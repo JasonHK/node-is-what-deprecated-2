@@ -29,6 +29,7 @@
     "@types/jest-in-case": "1.0.x",
     "jest": "24.9.x",
     "jest-in-case": "1.0.x",
+    "rimraf": "^3.0.0",
     "standard-version": "7.0.x",
     "ts-jest": "24.2.0",
     "typedoc": "0.15.x",

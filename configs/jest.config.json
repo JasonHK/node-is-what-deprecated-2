@@ -14,10 +14,8 @@
     "coverageDirectory": "./coverage",
     "coverageReporters": [
         "html",
-        "json",
         "lcov",
-        "text",
-        "clover"
+        "text"
     ],
     "collectCoverageFrom": [
         "src/**/*.ts"

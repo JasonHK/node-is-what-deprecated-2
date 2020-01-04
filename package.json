@@ -20,7 +20,9 @@
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
     "build:docs": "npx typedoc --options \"configs/typedoc.json\" src",
     "build:src:library": "npx tsc --project \"./configs/tsconfig.build.src.library.json\"",
-    "release": "npx standard-version"
+    "build:src:declare": "npx tsc --project \"./configs/tsconfig.build.src.declare.json\"",
+    "release": "npx standard-version",
+    "clean:build:src": "npx rimraf -- \"./*.@(js?(.map)|d.ts)\" \"./!(node_modules|configs|src|tests)/**/*.@(js?(.map)|d.ts)\""
   },
   "main": "index.js",
   "dependencies": {},

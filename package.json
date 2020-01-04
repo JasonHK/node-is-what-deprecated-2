@@ -18,7 +18,8 @@
   "scripts": {
     "test": "npx jest --config=\"configs/jest.config.json\"",
     "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
-    "build:docs": "npx typedoc --options \"configs/typedoc.json\" src"
+    "build:docs": "npx typedoc --options \"configs/typedoc.json\" src",
+    "release": "npx standard-version"
   },
   "main": "index.js",
   "dependencies": {},

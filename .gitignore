@@ -2,6 +2,11 @@
 # Repository
 #===================================================================================================
 
+# Compiled JavaScript
+*.js
+*.js.map
+*.d.ts
+
 # TypeDoc Documentation
 /docs
 

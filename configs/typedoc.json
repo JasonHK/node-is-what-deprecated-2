@@ -1,5 +1,5 @@
 {
-    "mode": "modules",
+    "mode": "files",
     "out": "docs",
     "excludePrivate": true
 }

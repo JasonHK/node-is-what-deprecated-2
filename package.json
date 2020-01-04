@@ -1,0 +1,35 @@
+{
+  "name": "@jasonhk/is-what",
+  "description": "A library for determining the type of the object.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Jason Kwok <nodejs@jasonhk.email> (https://jasonhk.net)",
+  "homepage": "https://github.com/JasonHK/node-is-what#readme",
+  "keywords": [
+    "typings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/node-is-what.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/node-is-what/issues"
+  },
+  "scripts": {
+    "test": "npx jest --config=\"configs/jest.config.json\"",
+    "test:coverage": "npx jest --config=\"configs/jest.config.json\" --coverage",
+    "build:docs": "npx typedoc --options \"configs/typedoc.json\" src"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "24.0.x",
+    "@types/jest-in-case": "1.0.x",
+    "jest": "24.9.x",
+    "jest-in-case": "1.0.x",
+    "standard-version": "7.0.x",
+    "ts-jest": "24.2.0",
+    "typedoc": "0.15.x",
+    "typescript": "3.7.x"
+  }
+}
